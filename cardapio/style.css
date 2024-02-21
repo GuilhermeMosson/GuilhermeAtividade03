@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+}
+
+.wrap_cards{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 7vh
+}
+
+@media (width >= 800px){
+    .wrap_cards{
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 7vh;
+    }
+}
