@@ -11,31 +11,45 @@ body{
     justify-content: center;
     align-items: center;
     padding: 20px;
-    gap: 2vh;
+    gap: 4vh;
     background-image: url("../imagens/restaurante_vertical.avif");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
+.btn.btn-primary{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: rgb(150, 150, 150);
+    color: rgb(255, 253, 220);
+    opacity: 0.9;
+    font-size: 2vh;
+    font-weight: 700;
+    width: 25vw;
+    height: 6vh;
+    border: none;
+}
+
 h1{
-    width: 50vw;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    width: 70vw;
     text-align: center;
-    color: aliceblue;
-    font-weight: 900;
-    background-color: rgba(0, 0, 0, 0.753);
+    color: rgb(255, 253, 220);
     text-shadow: 2px 2px #000;
     border-radius: 10px;
 }
 
 h2{
-    width: 30vw;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    width: 90%;
     text-align: center;
-    color: aliceblue;
-    font-weight: 800;
-    font-size: large;
-    background-color: rgba(0, 0, 0, 0.753);
-    text-shadow: 2px 2px #000;
+    background-color: rgba(128, 131, 107, 0.83);
+    color: rgb(255, 253, 220);
+    text-shadow: 5px 5px 5px #000;
     border-radius: 10px;
 }
 
@@ -45,7 +59,8 @@ h2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
+    margin-top: -15px;
     margin-bottom: 8vh;
 }
 
@@ -54,12 +69,12 @@ h2{
 }
 
 .card-body{
-    background-color: rgba(48, 47, 47, 0.39);
+    background-color: rgba(140, 140, 88, 0.353);
 }
 
 @media (width >= 800px){
     body{
-        background-image: url(../imagens/restaurante-largo1.jpg);
+        background-image: url(../imagens/restaurante-horizontal.jpg);
     }
     
     .wrap_cards{
@@ -74,6 +89,11 @@ h2{
         width: 25vw;
     }
     h2{
-        width: 15vw;
+        width: 70vw;
+    }
+
+    .btn.btn-primary{
+        width: 20vw;
+        font-size: 2.5vh;
     }
 }
