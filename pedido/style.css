@@ -13,6 +13,10 @@ body{
     text-align: center;
 }
 
+#selects-div{
+    display: none;
+}
+
 .error-medal{
     position: absolute;
     top: 50%;
@@ -71,9 +75,5 @@ body{
 
     .btn.btn-primary{
         font-size: 2.5vh;
-    }
-
-    .error-medal{
-        width: 50%;
     }
 }
