@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 15px;
+    gap: 3vh;
+    text-align: center;
+}
+
+.error-medal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    min-width: 300px;
+    height: auto;
+    padding: 20px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(253, 239, 208);
+    border: 3px solid rgb(247, 201, 85);
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}   
+
+.error_btn{
+    padding: 5px 20px;
+    width: 100%;
+    border: none;
+    border-radius: 999px;
+    color: chocolate;
+}
+
+.error_btn:hover{
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn.btn-primary{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: rgb(150, 150, 150);
+    color: rgb(255, 253, 220);
+    opacity: 0.9;
+    font-size: 2vh;
+    font-weight: 700;
+    height: 5vh;
+    border: none;
+}
+
+@media (width >= 800){
+    body{
+        align-items: center;
+        background-image: url(../imagens/restaurante-horizontal.jpg);
+    }
+
+    .btn.btn-primary{
+        font-size: 2.5vh;
+    }
+
+    .error-medal{
+        width: 50%;
+    }
+}
