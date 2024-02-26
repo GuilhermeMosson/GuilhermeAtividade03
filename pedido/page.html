@@ -43,17 +43,25 @@
         <h3>Bebidas</h3>
         <select class="form-select" aria-label="Default select example" id="selectBebida">
             <option selected>Abra para selecionar a bebida</option>
-            <option value="Prato feito">Refrigerantes</option>
-            <option value="Strogonoff de Frango">Suco de Laranja</option>
-            <option value="Macarrão carna moída">Café expresso</option>
+            <option value="Refrigerantes">Refrigerantes</option>
+            <option value="Suco de Laranja">Suco de Laranja</option>
+            <option value="Café expresso">Café expresso</option>
         </select>
         <h3>Sobremesas</h3>
         <select class="form-select" aria-label="Default select example" id="selectSobremesa">
             <option selected>Abra para selecionar a sobremesa</option>
-            <option value="Prato feito">Prato feito</option>
-            <option value="Strogonoff de Frango">Strogonoff de Frango</option>
-            <option value="Macarrão carna moída">Macarrão carna moída</option>
+            <option value="Prato feito">Fatia Bolo de Cenoura</option>
+            <option value="Brownie com Sorvete">Brownie com Sorvete</option>
+            <option value="Macarrão carna moída">Fatia Cheesecake</option>
         </select>
+        <div>
+            <button class="btn btn-success" type="button" onclick="calcularTotal()">Fazer pedido</button>
+            <button class="btn btn-secondary" type="button" onclick="limpar()">Limpar</button>
+        </div>
+        <div>
+            <span class="badge bg-primary">Total:</span>
+            <span class="badge bg-secondary" id="resultado"></span>
+        </div>
     </div>
 </body>
 </html>

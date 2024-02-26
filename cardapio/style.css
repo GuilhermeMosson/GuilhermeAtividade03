@@ -10,7 +10,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
     gap: 4vh;
     background-image: url("../imagens/restaurante_vertical.avif");
     background-repeat: no-repeat;
@@ -37,7 +37,7 @@ h1{
     font-style: normal;
     width: 70vw;
     text-align: center;
-    color: rgb(255, 253, 220);
+    color: rgb(236, 235, 211);
     text-shadow: 2px 2px #000;
     border-radius: 10px;
 }
@@ -45,7 +45,7 @@ h1{
 h2{
     font-family: "Poppins", sans-serif;
     font-style: normal;
-    width: 80vw;
+    width: auto;
     text-align: center;
     background-color: rgba(198, 198, 198, 0.805);
     color: rgb(255, 255, 242);
