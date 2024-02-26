@@ -29,20 +29,6 @@ body{
     width: 100%;
 }
 
-.btn.btn-primary{
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    background-color: rgb(150, 150, 150);
-    color: rgb(255, 253, 220);
-    opacity: 0.9;
-    font-size: 2vh;
-    font-weight: 700;
-    width: 25vw;
-    height: 6vh;
-    border: none;
-}
-
 .wrap_img {
     margin-bottom: 1vh;
     opacity: 0.95;

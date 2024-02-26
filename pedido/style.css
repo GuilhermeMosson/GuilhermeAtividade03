@@ -7,7 +7,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
+    align-items: center;
     padding: 15px;
     gap: 3vh;
     text-align: center;
@@ -30,8 +30,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(253, 239, 208);
-    border: 3px solid rgb(247, 201, 85);
+    background-color: rgb(255, 251, 243);
+    border: 3px solid rgb(85, 79, 61);
     border-radius: 30px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     text-align: center;
@@ -45,7 +45,8 @@ body{
     width: 100%;
     border: none;
     border-radius: 999px;
-    color: chocolate;
+    color:brown;
+    background-color: rgb(233, 203, 203);
 }
 
 .error_btn:hover{
@@ -58,11 +59,12 @@ body{
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
-    background-color: rgb(150, 150, 150);
-    color: rgb(255, 253, 220);
+    background-color: rgb(198, 198, 198);
+    color: rgb(78, 78, 69);
     opacity: 0.9;
     font-size: 2vh;
     font-weight: 700;
+    width: 30vw;
     height: 5vh;
     border: none;
 }

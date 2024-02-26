@@ -26,13 +26,34 @@
     </div>
     <h1>Pedido</h1>
     <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <label for="exampleFormControlInput1" class="form-label">Nome</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Seu Nome">
     </div>
     <button type="button" class="btn btn-outline-dark" onclick="comecar()">Começar</button>
 
     <div id="selects-div">
         <h2>OLÁ <span id="nomePrint"></span>, vamos começar a escolher sua refeição!</h2>
+        <h3>Pratos</h3>
+        <select class="form-select" aria-label="Default select example" id="selectPrato">
+            <option selected>Abra para selecionar o prato</option>
+            <option value="Prato feito">Prato feito</option>
+            <option value="Strogonoff de Frango">Strogonoff de Frango</option>
+            <option value="Macarrão carna moída">Macarrão carna moída</option>
+        </select>
+        <h3>Bebidas</h3>
+        <select class="form-select" aria-label="Default select example" id="selectBebida">
+            <option selected>Abra para selecionar a bebida</option>
+            <option value="Prato feito">Refrigerantes</option>
+            <option value="Strogonoff de Frango">Suco de Laranja</option>
+            <option value="Macarrão carna moída">Café expresso</option>
+        </select>
+        <h3>Sobremesas</h3>
+        <select class="form-select" aria-label="Default select example" id="selectSobremesa">
+            <option selected>Abra para selecionar a sobremesa</option>
+            <option value="Prato feito">Prato feito</option>
+            <option value="Strogonoff de Frango">Strogonoff de Frango</option>
+            <option value="Macarrão carna moída">Macarrão carna moída</option>
+        </select>
     </div>
 </body>
 </html>
